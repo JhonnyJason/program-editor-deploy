@@ -16141,7 +16141,7 @@ module.exports = Ed25519PasswordAuth;
 /* 59 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"mariadb\",\"_id\":\"mariadb@2.1.2\",\"_inBundle\":false,\"_integrity\":\"sha512-/llRVTxg4X6L3JgeqS83NNM2wG8JOXmBgmyHdjWnHYM7iu5uuSiJM4sB6a8K8haC/ROz/gWFPlh/6pdZ4da1RA==\",\"_location\":\"/mariadb\",\"_phantomChildren\":{\"safer-buffer\":\"2.1.2\"},\"_requested\":{\"type\":\"tag\",\"registry\":true,\"raw\":\"mariadb\",\"name\":\"mariadb\",\"escapedName\":\"mariadb\",\"rawSpec\":\"\",\"saveSpec\":null,\"fetchSpec\":\"latest\"},\"_requiredBy\":[\"#USER\",\"/\"],\"_resolved\":\"https://registry.npmjs.org/mariadb/-/mariadb-2.1.2.tgz\",\"_shasum\":\"9d2633738bd0a0c28bf3a0e2c28768f56a2c3b6c\",\"_spec\":\"mariadb\",\"_where\":\"/home/lenny/gits/program-editor\",\"author\":{\"name\":\"Diego Dupin\",\"email\":\"diego.dupin@mariadb.com\"},\"bugs\":{\"url\":\"https://jira.mariadb.org/projects/CONJS/\"},\"bundleDependencies\":false,\"dependencies\":{\"@types/geojson\":\"^7946.0.7\",\"@types/node\":\"^12.7.5\",\"denque\":\"^1.4.1\",\"iconv-lite\":\"^0.5.0\",\"long\":\"^4.0.0\",\"moment-timezone\":\"^0.5.26\"},\"deprecated\":false,\"description\":\"fast mariadb/mysql connector.\",\"devDependencies\":{\"@typescript-eslint/eslint-plugin\":\"^2.1.0\",\"@typescript-eslint/parser\":\"^2.1.0\",\"benchmark\":\"^2.1.4\",\"chai\":\"^4.2.0\",\"codecov\":\"^3.5.0\",\"colors\":\"^1.4.0\",\"dom-parser\":\"^0.1.6\",\"error-stack-parser\":\"^2.0.3\",\"eslint\":\"^6.3.0\",\"eslint-config-prettier\":\"^6.2.0\",\"eslint-plugin-markdown\":\"^1.0.0\",\"eslint-plugin-prettier\":\"^3.1.0\",\"mocha\":\"^6.2.0\",\"mocha-lcov-reporter\":\"^1.3.0\",\"nyc\":\"^14.1.1\",\"prettier\":\"^1.18.2\",\"typescript\":\"^3.5.3\"},\"directories\":{\"lib\":\"lib\",\"test\":\"test\"},\"engines\":{\"node\":\">= 6.0\"},\"files\":[\"lib\",\"types/index.d.ts\",\"promise.js\",\"callback.js\"],\"homepage\":\"https://github.com/MariaDB/mariadb-connector-nodejs#readme\",\"keywords\":[\"mariadb\",\"mysql\",\"client\",\"driver\",\"connector\"],\"license\":\"LGPL-2.1+\",\"main\":\"promise.js\",\"name\":\"mariadb\",\"private\":false,\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/MariaDB/mariadb-connector-nodejs.git\"},\"scripts\":{\"benchmark\":\"node ./benchmarks/benchmarks.js\",\"coverage\":\"npm run coverage:test && npm run coverage:report\",\"coverage:report\":\"nyc report --reporter=text-lcov > coverage.lcov && codecov\",\"coverage:test\":\"nyc mocha \\\"test/**/*.js\\\"\",\"generate\":\"node ./tools/generate-mariadb.js\",\"test\":\"npm run test:types-prettier && npm run test:prettier && npm run test:types && npm run test:lint && npm run test:base\",\"test:base\":\"mocha \\\"test/**/*.js\\\" \",\"test:lint\":\"eslint \\\"{lib,test}/**/*.js\\\" \",\"test:prettier\":\"prettier --write \\\"{tools,lib,test,benchmarks}/**/*.js\\\"\",\"test:types\":\"eslint \\\"types/*.ts\\\" \",\"test:types-prettier\":\"prettier --write \\\"types/*.ts\\\"\"},\"types\":\"types/index.d.ts\",\"version\":\"2.1.2\"}");
+module.exports = JSON.parse("{\"_args\":[[\"mariadb@2.1.2\",\"/home/lenny/gits/program-editor\"]],\"_from\":\"mariadb@2.1.2\",\"_id\":\"mariadb@2.1.2\",\"_inBundle\":false,\"_integrity\":\"sha512-/llRVTxg4X6L3JgeqS83NNM2wG8JOXmBgmyHdjWnHYM7iu5uuSiJM4sB6a8K8haC/ROz/gWFPlh/6pdZ4da1RA==\",\"_location\":\"/mariadb\",\"_phantomChildren\":{\"safer-buffer\":\"2.1.2\"},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"mariadb@2.1.2\",\"name\":\"mariadb\",\"escapedName\":\"mariadb\",\"rawSpec\":\"2.1.2\",\"saveSpec\":null,\"fetchSpec\":\"2.1.2\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/mariadb/-/mariadb-2.1.2.tgz\",\"_spec\":\"2.1.2\",\"_where\":\"/home/lenny/gits/program-editor\",\"author\":{\"name\":\"Diego Dupin\",\"email\":\"diego.dupin@mariadb.com\"},\"bugs\":{\"url\":\"https://jira.mariadb.org/projects/CONJS/\"},\"dependencies\":{\"@types/geojson\":\"^7946.0.7\",\"@types/node\":\"^12.7.5\",\"denque\":\"^1.4.1\",\"iconv-lite\":\"^0.5.0\",\"long\":\"^4.0.0\",\"moment-timezone\":\"^0.5.26\"},\"description\":\"fast mariadb/mysql connector.\",\"devDependencies\":{\"@typescript-eslint/eslint-plugin\":\"^2.1.0\",\"@typescript-eslint/parser\":\"^2.1.0\",\"benchmark\":\"^2.1.4\",\"chai\":\"^4.2.0\",\"codecov\":\"^3.5.0\",\"colors\":\"^1.4.0\",\"dom-parser\":\"^0.1.6\",\"error-stack-parser\":\"^2.0.3\",\"eslint\":\"^6.3.0\",\"eslint-config-prettier\":\"^6.2.0\",\"eslint-plugin-markdown\":\"^1.0.0\",\"eslint-plugin-prettier\":\"^3.1.0\",\"mocha\":\"^6.2.0\",\"mocha-lcov-reporter\":\"^1.3.0\",\"nyc\":\"^14.1.1\",\"prettier\":\"^1.18.2\",\"typescript\":\"^3.5.3\"},\"directories\":{\"lib\":\"lib\",\"test\":\"test\"},\"engines\":{\"node\":\">= 6.0\"},\"files\":[\"lib\",\"types/index.d.ts\",\"promise.js\",\"callback.js\"],\"homepage\":\"https://github.com/MariaDB/mariadb-connector-nodejs#readme\",\"keywords\":[\"mariadb\",\"mysql\",\"client\",\"driver\",\"connector\"],\"license\":\"LGPL-2.1+\",\"main\":\"promise.js\",\"name\":\"mariadb\",\"private\":false,\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/MariaDB/mariadb-connector-nodejs.git\"},\"scripts\":{\"benchmark\":\"node ./benchmarks/benchmarks.js\",\"coverage\":\"npm run coverage:test && npm run coverage:report\",\"coverage:report\":\"nyc report --reporter=text-lcov > coverage.lcov && codecov\",\"coverage:test\":\"nyc mocha \\\"test/**/*.js\\\"\",\"generate\":\"node ./tools/generate-mariadb.js\",\"test\":\"npm run test:types-prettier && npm run test:prettier && npm run test:types && npm run test:lint && npm run test:base\",\"test:base\":\"mocha \\\"test/**/*.js\\\" \",\"test:lint\":\"eslint \\\"{lib,test}/**/*.js\\\" \",\"test:prettier\":\"prettier --write \\\"{tools,lib,test,benchmarks}/**/*.js\\\"\",\"test:types\":\"eslint \\\"types/*.ts\\\" \",\"test:types-prettier\":\"prettier --write \\\"types/*.ts\\\"\"},\"types\":\"types/index.d.ts\",\"version\":\"2.1.2\"}");
 
 /***/ }),
 /* 60 */
@@ -73821,7 +73821,7 @@ cfg = null;
 //#initialization function  -> is automatically being called!  ONLY RELY ON DOM AND VARIABLES!! NO PLUGINS NO OHTER INITIALIZATIONS!!
 authenticationhandlermodule.initialize = function() {
   log("authenticationhandlermodule.initialize");
-  state = allModules.authenticationhandlermodule;
+  state = allModules.serverstatemodule;
   cfg = allModules.configmodule;
   state.activeToken = getRandomChars(40);
 };
@@ -73931,8 +73931,8 @@ dbConnectionMariadb = null;
 //endregion
 
 //#initialization function  -> is automatically being called!  ONLY RELY ON DOM AND VARIABLES!! NO PLUGINS NO OHTER INITIALIZATIONS!!
-databasehandlermodule.initialize = async function() {
-  var accessOptions, c, caFile, caPath, certFile, certPath, keyFile, keyPath;
+databasehandlermodule.initialize = function() {
+  var accessOptions, c, caPath, certPath, keyPath;
   databasehandlermodule_log("databasehandlermodule.initialize");
   c = allModules.configmodule;
   caPath = c.dbCaFilePath;
@@ -73943,47 +73943,48 @@ databasehandlermodule.initialize = async function() {
   // log "keyPath: " + keyPath
   // log "certPath: " + certPath
   // return
-  // accessOptions = 
-  //     multipleStatements: true
-  //     host: c.dbHost
-  //     user: c.dbUser
-  //     password: c.dbPassword
-  //     database: c.dbName
-  //     ssl:
-  //         ca: fs.readFileSync(caPath)
-  //         key: fs.readFileSync(keyPath)
-  //         cert: fs.readFileSync(certPath)
-  //         # rejectUnauthorized: false
-
-  // dbConnectionMysql = mysql.createConnection(accessOptions)
-  // console.log(" ! ! ! ! !  surrviced connect call!")
-
-  // return
-  caFile = [fs.readFileSync(caPath, "utf8")];
-  keyFile = [fs.readFileSync(keyPath, "utf8")];
-  certFile = [fs.readFileSync(certPath, "utf8")];
   accessOptions = {
     multipleStatements: true,
     host: c.dbHost,
     user: c.dbUser,
     password: c.dbPassword,
     database: c.dbName,
-    // timezone: "auto"
     ssl: {
-      ca: caFile,
-      key: keyFile,
-      cert: certFile,
+      ca: fs.readFileSync(caPath),
+      key: fs.readFileSync(keyPath),
+      cert: fs.readFileSync(certPath),
       rejectUnauthorized: false
     }
   };
-  dbConnectionMariadb = (await mariadb.createConnection(accessOptions));
-  console.log(" ! ! ! ! !  surrviced connect call!");
+  dbConnectionMysql = mysql.createConnection(accessOptions);
+  console.log("\n ! ! ! ! !  survived connect call!\n");
 };
 
-//region internal function
-//#############################################################################
-// Query Functions
-//#############################################################################
+// caFile = [fs.readFileSync(caPath, "utf8")]
+// keyFile = [fs.readFileSync(keyPath, "utf8")]
+// certFile = [fs.readFileSync(certPath, "utf8")]
+
+// accessOptions = 
+//     multipleStatements: true
+//     host: c.dbHost
+//     user: c.dbUser
+//     password: c.dbPassword
+//     database: c.dbName
+//     # timezone: "auto"
+//     ssl:
+//         ca: caFile
+//         key: keyFile
+//         cert: certFile
+//         rejectUnauthorized: false
+
+// dbConnectionMariadb = await mariadb.createConnection(accessOptions)
+
+// console.log(" ! ! ! ! !  surrviced connect call!")
+// return
+
+//region internalFunction
+
+//region queryGetter
 getStaticProgramInformationQuery = function() {
   return "SELECT * FROM programs_test_history.programs_static;";
 };
@@ -74048,9 +74049,7 @@ getSaveNewRunQuery = function(inserts) {
   return mysql.format(sql, inserts);
 };
 
-//###############################################################################
-// Internal Functions
-//###############################################################################
+//endregion
 getProgramOverview = function(resolve, reject) {
   return dbConnectionMysql.query(getProgramsOverviewQuery(), function(error, results, fields) {
     var result;
@@ -74285,18 +74284,17 @@ debugmodule.initialize = function() {};
 //console.log "debugmodule.initialize - nothing to do"
 debugmodule.modulesToDebug = {
   unbreaker: true,
-  // authenticationhandlermodule: true
+  authenticationhandlermodule: true,
   configmodule: true,
   databasehandlermodule: true,
   programdatahandlermodule: true,
   // rundatahandlermoule: true
-  // scimodule: true
+  scimodule: true,
   // serverstatemodule: true
-  startupmodule: true
+  startupmodule: true,
+  // utilmodule: true
+  websocketmodule: true
 };
-
-// utilmodule: true
-// websocketmodule: true
 
 //region exposed variables
 /* harmony default export */ var js_debugmodule = (debugmodule);
@@ -74488,6 +74486,7 @@ digestStaticProgramInfo = function(staticProgramInfo) {
       giffilename: info.giffilename,
       descriptionkey: info.descriptionkey
     };
+    programdatahandlermodule_log("\n" + JSON.stringify(result[info.programs_static_id], null, 4));
   }
   return result;
 };
@@ -75078,7 +75077,6 @@ scimodule.initialize = function() {
   scimodule_state = allModules.serverstatemodule;
   app = express();
   wsHandle = expressWs(app);
-  app.use(cors());
   app.use(bodyParser.urlencoded({
     extended: false
   }));
